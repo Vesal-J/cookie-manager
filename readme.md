@@ -1,6 +1,6 @@
 # *Cookie Manager*
 
-**In this repository, I tried to collect the functions needed to work with cookies in javascript, hope you enjoy it**
+**In this repository, I tried to collect the functions needed to Manage cookies in javascript, hope you enjoy it**
 -
 
 
@@ -10,12 +10,12 @@
 ```javascript
 createCookie("cookieName", "Cookie value", 20)
 ```
-this function gives three arguments and here is explain
+this function takes three arguments and here is explain
 -
 
 - first argument: Cookie name
-- first argument: Cookie Value
-- first argument (optional): expire time of cookie, default value is 0
+- second argument: Cookie Value
+- third argument (optional): expire time of cookie, default value is 0
 
 
 ## add multiple cookies
@@ -29,7 +29,7 @@ let cookies = {
 
 createMultipleCookies(cookies)
 ```
-<font size=4>this function gives an object of cookies, the key will be the cookie key and value will be value of cookie.  
+<font size=4>this function takes an object of cookies, the key will be the cookie key and value will be value of cookie.  
 you can use this method when you don't want to use expire time, if you need it, instead of using this, use next method
 </font>
 =
